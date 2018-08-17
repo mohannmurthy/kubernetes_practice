@@ -1,0 +1,10 @@
+---
+Employee:
+  - name: mohan
+    age: 32
+    profile:
+      techonoloy: java
+      platform: cetos
+
+  - name: prasanth
+    age: 30
