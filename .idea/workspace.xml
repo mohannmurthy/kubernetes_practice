@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed041674-20ba-4df5-800e-ab4f0d7ecf7c" name="Default" comment="&#10;&#10; csa">
-      <change afterPath="$PROJECT_DIR$/deployment/deployment-defination.yml" afterDir="false" />
+    <list default="true" id="ed041674-20ba-4df5-800e-ab4f0d7ecf7c" name="Default" comment="Added deployment object">
+      <change afterPath="$PROJECT_DIR$/services/service-defination.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/deployment-defination.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/deployment-defination.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misscellaneous/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
     </list>
     <ignored path="kubernetes_practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,39 +36,39 @@
     <session id="-1483100273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="105" />
-          <entry key="yml" value="645" />
+          <entry key="txt" value="323" />
+          <entry key="yml" value="797" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kubernetes YAML" value="539" />
-          <entry key="PLAIN_TEXT" value="105" />
-          <entry key="YAML" value="106" />
+          <entry key="Kubernetes YAML" value="611" />
+          <entry key="PLAIN_TEXT" value="323" />
+          <entry key="YAML" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="txt" value="1" />
-          <entry key="yml" value="14" />
+          <entry key="txt" value="2" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kubernetes YAML" value="6" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="YAML" value="8" />
+          <entry key="Kubernetes YAML" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -80,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/misscellaneous/example.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
@@ -103,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/replicationset/replicaset-defination.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -113,25 +115,43 @@
         <entry file="file://$PROJECT_DIR$/pods/pod-defination.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deployment/deployment-defination.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misscellaneous/commands.txt">
+        <entry file="file://$PROJECT_DIR$/sample.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deployment/deployment-defination.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/service-defination.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -153,7 +173,9 @@
         <option value="$PROJECT_DIR$/replicationcontroller/rc-defination.yml" />
         <option value="$PROJECT_DIR$/replicationset/replicaset-defination.yml" />
         <option value="$PROJECT_DIR$/deployments/deployment-defination.yml" />
+        <option value="$PROJECT_DIR$/commands.txt" />
         <option value="$PROJECT_DIR$/deployment/deployment-defination.yml" />
+        <option value="$PROJECT_DIR$/services/service-defination.yml" />
       </list>
     </option>
   </component>
@@ -174,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,22 +211,18 @@
             <path>
               <item name="kubernetes_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubernetes_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="misscellaneous" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubernetes_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubernetes_practice" type="462c0819:PsiDirectoryNode" />
               <item name="pods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubernetes_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubernetes_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="replicationset" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/misscellaneous" />
     </key>
   </component>
@@ -290,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534772310087</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added deployment object">
+      <created>1534772816541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534772816541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,7 +331,7 @@
     <frame x="1430" y="-11" width="1857" height="1212" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2039801" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20619127" />
       <window_info id="Structure" order="1" weight="0.2498618" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,9 +342,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992566" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32992566" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.45167285" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.45167285" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32992566" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32992566" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -347,24 +372,15 @@
     <MESSAGE value="change the api version" />
     <MESSAGE value="change the replicas number" />
     <MESSAGE value="&#10;&#10; csa" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10; csa" />
+    <MESSAGE value="Added deployment object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added deployment object" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pods/pod-defination2.yml" />
     <entry file="file://$PROJECT_DIR$/misscellaneous/example.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pods/example.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misscellaneous/commands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -375,24 +391,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pods/example.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/replicationset/replicaset-defination.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pods/pod-defination.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deployment/deployment-defination.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/service-defination.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

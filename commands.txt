@@ -1,0 +1,9 @@
+kubectl run niginx --image=nginx
+
+kubectl create -f example.yml
+kubectl apply -f example.yml
+
+
+kubectl rollout undo deployment/deploymentname
+
+kubectl rollout status deployment/deploymentname
