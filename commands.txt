@@ -4,6 +4,25 @@ kubectl create -f example.yml
 kubectl apply -f example.yml
 
 
-kubectl rollout undo deployment/deploymentname
+kubectl get pods
+kubectl get replicaset
+kubectl get deployments
+kubectl get services
+kubectl get pods --show-labels
+kubectl get pods -o wide
 
+kubectl describe pods -- Describe all the pods
+kubectl describe pods/podnameid    --- describe particular pod details
+
+kubectl describe services
+kubectl describe services/myapp-service
+kubectl describe deployments
+kubectl create -f deployement.yml --record
+kubectl describe deployment
+kubectl describe deployment/myapp-deployment
+kubectl rollout undo deployment/deploymentname
 kubectl rollout status deployment/deploymentname
+kubectl rollout history deployment/deploymentname
+
+
+
